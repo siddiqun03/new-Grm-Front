@@ -359,7 +359,7 @@ export default function CardSort({
                         : isOnlyTerminal
                           ? KassaReport?.accauntantSum || 0
                           : KassaReport?.in_hand ? KassaReport?.in_hand
-                            : kassaId?.in_hand || kassaId?.totalSum || 0
+                            : kassaId?.in_hand || 0
                       //  isOnlyTerminal ?(KassaReport?.accauntantSum || 0)  : KassaReport?.totalSum || kassaId?.totalSum || 0
                     )}
                   </p>
